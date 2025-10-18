@@ -57,13 +57,12 @@ function htmlDomBaumToken() {
     const timeResult = interimResult * msNumber;
 
     const randomColorToken = () => {
-      const randomHex = () =>
-        `#${Math.floor(Math.random() * 0xffffff)
-          .toString(16)
-          .padStart(6, "0")}`;
-
-      const randomColorOne = randomHex();
-      const randomColorTwo = randomHex();
+      const randomColorOne = `#${Math.floor(Math.random() * 0xffffff)
+        .toString(16)
+        .padStart(6, "0")}`;
+      const randomColorTwo = `#${Math.floor(Math.random() * 0xffffff)
+        .toString(16)
+        .padStart(6, "0")}`;
 
       hOneTimeDateEl.style.transition = `background ${timeNumber}s ease-in-out`;
       hTwoDateEl.style.transition = `background ${timeNumber}s ease-in-out`;
