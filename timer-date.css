@@ -69,6 +69,8 @@ body::-webkit-scrollbar {
 
 .title-time-container {
   background: rgba(0, 0, 0, 0);
+  width: 770px;
+  height: 150px;
   display: flex;
   align-items: center;
   align-content: center;
@@ -86,6 +88,8 @@ body::-webkit-scrollbar {
 .title-time-txt {
   background: linear-gradient(45deg, var(--c1), var(--c2) 75%);
   background-size: 100% 100%;
+  width: 750px;
+  height: 120px;
   display: flex;
   align-items: center;
   align-content: center;
@@ -109,6 +113,8 @@ body::-webkit-scrollbar {
 
 .title-date-container {
   background: rgba(0, 0, 0, 0);
+  width: 570px;
+  height: 120px;
   display: flex;
   align-items: center;
   align-content: center;
@@ -126,6 +132,8 @@ body::-webkit-scrollbar {
 .title-date-txt {
   background: linear-gradient(45deg, var(--c2) 25%, var(--c1));
   background-size: 100% 100%;
+  width: 550px;
+  height: 100px;
   display: flex;
   align-items: center;
   align-content: center;
